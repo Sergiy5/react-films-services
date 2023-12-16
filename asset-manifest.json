@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-films-services/static/css/main.176682e1.css",
+    "main.js": "/react-films-services/static/js/main.46ea95ae.js",
+    "static/js/768.ca0ad345.chunk.js": "/react-films-services/static/js/768.ca0ad345.chunk.js",
+    "static/js/381.6805dba9.chunk.js": "/react-films-services/static/js/381.6805dba9.chunk.js",
+    "static/js/530.15c8f04d.chunk.js": "/react-films-services/static/js/530.15c8f04d.chunk.js",
+    "static/js/696.3d8e9199.chunk.js": "/react-films-services/static/js/696.3d8e9199.chunk.js",
+    "static/js/450.6b329372.chunk.js": "/react-films-services/static/js/450.6b329372.chunk.js",
+    "index.html": "/react-films-services/index.html",
+    "main.176682e1.css.map": "/react-films-services/static/css/main.176682e1.css.map",
+    "main.46ea95ae.js.map": "/react-films-services/static/js/main.46ea95ae.js.map",
+    "768.ca0ad345.chunk.js.map": "/react-films-services/static/js/768.ca0ad345.chunk.js.map",
+    "381.6805dba9.chunk.js.map": "/react-films-services/static/js/381.6805dba9.chunk.js.map",
+    "530.15c8f04d.chunk.js.map": "/react-films-services/static/js/530.15c8f04d.chunk.js.map",
+    "696.3d8e9199.chunk.js.map": "/react-films-services/static/js/696.3d8e9199.chunk.js.map",
+    "450.6b329372.chunk.js.map": "/react-films-services/static/js/450.6b329372.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.176682e1.css",
+    "static/js/main.46ea95ae.js"
+  ]
+}
