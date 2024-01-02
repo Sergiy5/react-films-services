@@ -1,6 +1,6 @@
 import { useSearchParams } from 'react-router-dom';
 import { useState } from 'react';
-import {FetchAPI} from "utils/searchDataMovie"
+import {searchMovie} from "utils/searchDataMovie"
 import ListMovies from 'components/ListMovies/listMovies';
 import { useEffect } from 'react';
 
@@ -11,13 +11,16 @@ const SearchMovie = () => {
   const search = searchParams.get('query') ?? '';
   const [query, setQuery] = useState(search);
 
+  // console.log('movies', movies);
+  // console.log('query', query);
+  
   useEffect(() => {
-    if (query) {
-    FetchAPI(query).then(res => {
-      return setMovie(res.results);
-    });
-  }
-  }, [query])
+    if (query??search){
+   searchMovie(query).then(res =>     
+      setMovie(res.data.results))
+    }
+    
+  }, [query, search])
   
   const handleSubmit = (e) => {
     e.preventDefault()

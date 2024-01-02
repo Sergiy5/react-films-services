@@ -6,7 +6,7 @@ import { getMovieCredits } from "utils/searchDataMovie";
 const Cast = () => {
     const[castMovie, setCastMovie] = useState([])
     const { id } = useParams();
-    // console.log(id)
+    
     useEffect(()=> {
         const credits = async () =>
           await getMovieCredits(id).then(res => {return setCastMovie(res.cast)});

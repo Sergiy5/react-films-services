@@ -1,7 +1,8 @@
 import { nanoid } from 'nanoid';
 
 const MovieItem = ({ movie }) => {
-  const { original_title, genres, poster_path, vote_average, overview } = movie;
+
+  const { original_title, genres, poster_path, vote_average, overview } = movie.data;
   const poster = poster_path
     ? `https://image.tmdb.org/t/p/w300/${poster_path}`
     : '';
